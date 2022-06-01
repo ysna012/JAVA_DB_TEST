@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.java_db_test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JAVA_DB_TEST">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".lineSelectActivity"/>
+        <activity android:name=".line1Activity"/>
+        <activity android:name=".line2Activity"/>
+        <activity android:name=".line3Activity"/>
+        <activity android:name=".line4Activity"/>
+        <activity android:name=".line5Activity"/>
+        <activity android:name=".line6Activity"/>
+        <activity android:name=".line7Activity"/>
+        <activity android:name=".line8Activity"/>
+        <activity android:name=".line9Activity"/>
+    </application>
+
+</manifest>
