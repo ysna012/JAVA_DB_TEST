@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //DB를 생성하고 초기화하는 DB생성자 정의
-    public class myDBHelper extends SQLiteOpenHelper {
+    public static class myDBHelper extends SQLiteOpenHelper {
         public myDBHelper(Context context) {
             super(context, "WheelChairDB", null, 1);
         }
